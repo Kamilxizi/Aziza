@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: pink;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: #333;
+  margin-top: 0;
+}
+
+main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Добавим стили для footer и иконок социальных сетей */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+/* Добавим стиль для параграфа с анимацией */
+main p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  opacity: 0;
+}
+
+/* Добавим класс для анимирования */
+.animate-text {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
